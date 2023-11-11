@@ -16,7 +16,9 @@ namespace AtmRushClone.Scripts.Commonds
         public void Load(int level)
         {
             var resourceRequest = Resources.LoadAsync<GameObject>($"Prefabs/Levels/Level {level}");
-            resourceRequest.completed += (obj) =>
+
+
+            resourceRequest.completed += _ =>
             {
                 var spawnedobject =
                     Object.Instantiate(resourceRequest.asset.GameObject(), Vector3.zero, Quaternion.identity);

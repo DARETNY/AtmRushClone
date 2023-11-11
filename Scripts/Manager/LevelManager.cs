@@ -1,4 +1,3 @@
-using System;
 using AtmRushClone.Scripts.Commonds;
 using AtmRushClone.Scripts.Data;
 using AtmRushClone.Scripts.Signals;
