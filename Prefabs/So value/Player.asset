@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   inputdata:
-    horizontalSpeed: 0
+    horizontalSpeed: 3
     verticalSpeed:
-      x: 0
-      y: 0
-    stopeSlope: 0
+      x: -2
+      y: 2
+    stopeSlope: 2

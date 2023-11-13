@@ -1,4 +1,3 @@
-using AtmRushClone.Scripts.Data;
 using AtmRushClone.Scripts.Enums;
 using AtmRushClone.Scripts.Manager.Locater;
 using AtmRushClone.Scripts.Signals;
